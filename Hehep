@@ -342,7 +342,7 @@ IslandTab:AddButton({
     Title = "Fix Lag Để Treo Game",
     Description = "Tăng 1tỉ fps",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/FixLagFull/refs/heads/main/FixlagVipTanh"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/FixLagFull/refs/heads/main/FixlagVipTanh"))()
     end
 })
 PlayerTab:AddButton({
