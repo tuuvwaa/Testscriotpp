@@ -125,13 +125,13 @@ TanhTab:AddButton({
 })
 MainTab:AddButton({
     Title = "Maru Hub",
-    Description = "Giới Hạn 10 Người",
+    Description = "Giới Hạn 10 Người Dùng🔒",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptMaru/refs/heads/main/MaruHubPremium.Lua"))()
     end
 })
 MainTab:AddButton({
-    Title = "Tsuo Hub",
+    Title = "Tsuo Hub New",
     Description = "Premium Mới Nhất",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
@@ -376,14 +376,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 })
 PremiumTab:AddButton({
     Title = "Maru Hub",
-    Description = "Giới Hạn 10 Người",
+    Description = "Giới Hạn 10 Người Dùng🔒",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptMaru/refs/heads/main/MaruHubPremium.Lua"))()
     end
 })
 PremiumTab:AddButton({
     Title = "Banana Hub",
-    Description = "Giới Hạn 30 Người",
+    Description = "Giới Hạn 30 Người Dùng🔒",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/AutoKick/refs/heads/main/TrollHaHa"))()
     end
@@ -495,7 +495,7 @@ MainTab:AddButton({
 })
 ChestTab:AddToggle("TuanAnhIOS_Toggle", {
     Title = "Auto Nhặt Rương",
-    Description = "Bật Tắt Chest✅",
+    Description = "Bật Tắt Chest TAnhDzai✅",
     Callback = function(value)
         _G.TuanAnhIOS_Enabled = value
 
