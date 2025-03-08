@@ -255,7 +255,7 @@ ChestTab:AddToggle("Kill Aura", {
 })
 ChestTab:AddToggle("TuanAnhIOS_Toggle", {
     Title = "Auto Nhặt Rương",
-    Description = "Bật Tắt Tuấn Anh DepZai✅",
+    Description = "Bật Tắt Tuấn Anh Hub✅",
     Callback = function(value)
         _G.TuanAnhIOS_Enabled = value
 
