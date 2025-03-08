@@ -269,10 +269,10 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-H
     end
 })
 FruitTab:AddButton({
-    Title = "Sera Hub",
+    Title = "Noka Hub",
     Description = "Auto Nhặt Fruit",
     Callback = function()
-        loadstring(game:HttpGet("https://serahub.site/scripts/farmfruit.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptMaru/refs/heads/main/MaruHubPremium.Lua"))()
     end
 })
 PlayerTab:AddButton({
@@ -342,7 +342,7 @@ IslandTab:AddButton({
     Title = "Fix Lag Để Treo Game",
     Description = "Tăng 1tỉ fps",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/FixLagFull/refs/heads/main/FixlagVipTanh"))
     end
 })
 PlayerTab:AddButton({
